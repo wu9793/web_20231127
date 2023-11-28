@@ -41,6 +41,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#card">Card</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tab">Tab</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#collapse">Collapse</a>
+                        </li>
                         <!-- 下拉式選單 -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -137,14 +143,12 @@
         </div>
         <br>
         <br>
-        <hr id="card">
+        <hr id="tab">
         <br>
         <br>
-        
-
-
+        <!-- tab -->
         <div class="row m-auto">
-            <div class="container mt-3 col-8">
+            <div class="container-fluid mt-3 col">
                 <h2>吉卜力音樂</h2>
                 <br>
                 <!-- Nav tabs -->
@@ -191,56 +195,59 @@
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                             laudantium,
                             totam rem aperiam.</p>
-                        <!-- collapse 摺疊功能 -->
-                        <div class="container-fluid justify-content-center text-center">
-                            <p class="d-inline-flex gap-1 row">
-                                <a class="btn btn-outline-dark btn-sm col mx-3 shadow rounded" data-bs-toggle="collapse"
-                                    href="#multiCollapseExample1" role="button" aria-expanded="false"
-                                    aria-controls="multiCollapseExample1">Toggle first element</a>
-                                <button class="btn btn-outline-dark btn-sm col mx-3 shadow rounded" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
-                                    aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second
-                                    element</button>
-                                <button class="btn btn-outline-dark btn-sm col mx-3 shadow rounded" type="button"
-                                    data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false"
-                                    aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
-                                    elements</button>
-                            </p>
 
-                            <div class="row w-75 mx-auto">
-                                <div class="col-4">
-                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                        <div class="card card-body border-0 align-middle">
-                                            Some placeholder content for the first collapse component of this
-                                            multi-collapse example.
-                                            This panel is hidden by default but revealed when the user activates the
-                                            relevant trigger.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-8">
-                                    <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                        <div class="card card-body border-0">
-                                            <div class="w-75 mx-auto ">
-                                                <img src="./images/04.jpg" class="img-fluid" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr id="collapse">
+        <br>
+        <br>
+        <!-- collapse 摺疊功能 -->
+        <div class="container-fluid justify-content-center text-center">
+            <p class="d-inline-flex gap-1 row">
+                <a class="btn btn-outline-dark btn-sm col mx-3 shadow rounded" data-bs-toggle="collapse"
+                    href="#multiCollapseExample1" role="button" aria-expanded="false"
+                    aria-controls="multiCollapseExample1">Toggle first element</a>
+                <button class="btn btn-outline-dark btn-sm col mx-3 shadow rounded" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                    aria-controls="multiCollapseExample2">Toggle second
+                    element</button>
+                <button class="btn btn-outline-dark btn-sm col mx-3 shadow rounded" type="button"
+                    data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false"
+                    aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
+                    elements</button>
+            </p>
+            <div class="row w-75 mx-auto">
+                <div class="col-4">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body border-0 align-middle">
+                            Some placeholder content for the first collapse component of this
+                            multi-collapse example.
+                            This panel is hidden by default but revealed when the user activates the
+                            relevant trigger.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body border-0">
+                            <div class="w-75 mx-auto ">
+                                <img src="./images/04.jpg" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4 mt-3 d-flex">
-                <iframe width="400" height="400" src="https://www.youtube.com/embed/qslT-yj9Oy8?si=Q_TKwRuz4ttyX84h"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-            </div>
         </div>
-
+        <div>
+            <p class="text-center mt-2">
+                <i class="fa-solid fa-copyright"></i>
+                2023 Copyright
+            </p>
+        </div>
         <!-- 邊選單 -->
         <div class="offcanvas offcanvas-end" id="demo">
             <div class="offcanvas-header">
