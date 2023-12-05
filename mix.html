@@ -67,6 +67,7 @@
                 </div>
             </div>
         </nav>
+        <!-- navbar end -->
 
         <!-- 輪播圖 -->
         <!-- data-bs-ride="carousel" 使用 自動輪播功能 -->
@@ -102,12 +103,12 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <!-- 輪播圖 end -->
         <br>
         <br>
         <hr id="card">
         <br>
         <br>
-
         <!-- card -->
         <div class="row mx-auto">
             <div class="col-4 d-flex">
@@ -143,6 +144,41 @@
         </div>
         <br>
         <br>
+        <div class="row mx-auto">
+            <div class="col-4 d-flex">
+                <div class="card">
+                    <img src="./images/08.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 d-flex">
+                <div class="card">
+                    <img src="./images/09.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            thecard's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 d-flex">
+                <div class="card">
+                    <img src="./images/10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card end -->
+        <br>
+        <br>
         <hr id="tab">
         <br>
         <br>
@@ -168,9 +204,12 @@
                 <div class="tab-content">
                     <div id="home" class="container tab-pane active"><br>
                         <h3>HOME</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque vitae consequuntur, fugiat
+                            possimus in, molestiae deleniti totam quod at recusandae officiis numquam assumenda ducimus
+                            illo, eveniet nostrum maiores laborum. Voluptates obcaecati quis aut laboriosam eum voluptas
+                            dignissimos veniam odit facilis tempora possimus dolore quaerat harum modi, delectus maiores
+                            exercitationem dicta sit! Expedita impedit in veniam. Cupiditate commodi numquam libero eum.
+                        </p>
                     </div>
                     <div id="menu1" class="container tab-pane fade"><br>
                         <h3>List</h3>
@@ -199,12 +238,13 @@
                         </p>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14457.923628323224!2d121.4128378!3d25.0516845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1701246798267!5m2!1szh-TW!2stw"
-                            class="w-100 h-100" style="border:0;" allowfullscreen="" loading="lazy"
+                            class="w-100" style="height: 400px; border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- tab end -->
         <br>
         <br>
         <hr id="collapse">
@@ -247,24 +287,87 @@
                 </div>
             </div>
         </div>
+        <!-- collapse 摺疊功能 end -->
+        <!-- footer -->
         <div>
             <p class="text-center mt-2">
                 <i class="fa-solid fa-copyright"></i>
                 2023 Copyright
             </p>
         </div>
+        <!-- footer end -->
+
         <!-- 邊選單 -->
         <div class="offcanvas offcanvas-end" id="demo">
             <div class="offcanvas-header">
-                <h1 class="offcanvas-title">Setting</h1>
+                <h2 class="fw-bold mb-5 text-center">Sign up now</h2>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
             </div>
             <div class="offcanvas-body">
-                <button class="btn btn-secondary" type="button">A Button</button>
-                <button class="btn btn-secondary" type="button">A Button</button>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                    <div class="col-6 mb-4">
+                        <div class="form-outline">
+                            <input type="text" id="form3Example1" class="form-control" />
+                            <label class="form-label" for="form3Example1">First name</label>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="form-outline">
+                            <input type="text" id="form3Example2" class="form-control" />
+                            <label class="form-label" for="form3Example2">Last name</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <input type="email" id="form3Example3" class="form-control" />
+                    <label class="form-label" for="form3Example3">Email address</label>
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                    <input type="password" id="form3Example4" class="form-control" />
+                    <label class="form-label" for="form3Example4">Password</label>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                    <label class="form-check-label" for="form2Example33">
+                        Subscribe to our newsletter
+                    </label>
+                </div>
+
+                <!-- Submit button -->
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-block mb-4">
+                        Sign up
+                    </button>
+                </div>
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>or sign up with:</p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-google"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-twitter"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-github"></i>
+                    </button>
+                </div>
             </div>
+            <!-- 邊選單 end -->
+
         </div>
-    </div>
 </body>
 
 </html>
